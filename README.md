@@ -8,6 +8,13 @@ Node.js: Ensure you have Node.js installed on your system. You can download and 
 Express.js: Install it using <b>npm install express</b></br>
 CORS Middleware: npm: <b>npm install cors </b></br>
 Axios: install it using npm: <b>npm install axios</b></br>
+http server: <b>npm install -g http-server</b></br>
+</br>
+</br>
+<h2>To run it:</h2>
+node server.js : Start back end server</br>
+node express.js : start middle end server</br>
+http-server : Start http server which allows index.html to interract</br>
 </br>
 </br>
 <h2>Demo:</h2>
