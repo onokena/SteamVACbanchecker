@@ -4,9 +4,10 @@
   "description": "Steam checker if person is vacbanned, useful for rust",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+    "start": "node server.js",
+    "start-express": "node express.js"
+},
+  "author": "onokena",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.7",
