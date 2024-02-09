@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 throw new Error('Steam ID is required');
             }
 
-            const response = await fetch(`http://localhost:3000/api/steam/${steamId}`);
+            const response = await fetch(`http://localhost:42960/api/steam/${steamId}`);
             const data = await response.json();
 
             // Logging the response and data
